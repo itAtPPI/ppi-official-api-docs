@@ -1,0 +1,87 @@
+site_name: PPI Docs
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+site_author: Portfolio Personal Inversiones
+edit_uri: ""
+
+
+repo_url: https://github.com/itAtPPI
+repo_name: itAtPPI/ppi-api-library
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/PPersonal/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pportfolio
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/PortfolioPersonal
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/portfoliopersonal
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/portfoliopersonalinversiones
+    - icon: fontawesome/brands/spotify
+      link: https://open.spotify.com/show/3aRKaHvbA32pNU2mi3zDEo?si=Ymlw3e-BTMyxc92aJF27kw 
+      
+
+copyright: Portfolio Personal Inversiones | Copyright 2021
+
+nav:
+  - Inicio: index.md
+  - Primeros pasos: 
+    - Creación de Credenciales: primerosPasos/credenciales.md
+  - Productos API:
+    - Librería Python:
+      - Conexión - Librería Python: api/conexionesWebSocket.md
+      - Stream - Librería Python: api/streamWebSocket.md
+    - REST:
+      - API REST : api/rest.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
