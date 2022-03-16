@@ -3,13 +3,12 @@
 __Bienvenido a los servicios API de Portfolio Personal Inversiones__
  -----------------------------------------------------------
  
-A través de nuestra librería Python y los servicios REST vas a tener acceso a los distintos servicios que brinda la API de PPI, mediante los cuales podrás:
+Creá tus propias herramientas y soluciones de trading mediante las APIs de PPI, las cuales te permiten:
 
-- Operar libremente todos los activos que ofrecemos.
-- Obtener realtime data.
-- Generar presupuestos de operaciones.
-- Consultar saldo de carteras.
-- Crear tus propias soluciones y desarrollos de trading, de acuerdo al tipo de operatoria que realices. 
+- Acceder a información y cotizaciones de los instrumentos disponibles en PPI.
+- Acceder a cotizaciones por streaming en tiempo real, para que siempre tengas los últimos precios.
+- Consultar tu saldo operable y el estado de tu cuenta.
+- Presupuestar y enviar ordenes al mercado de Bonos, Acciones, CEDEARs y muchos instrumentos más.
 
 !!! info "Primeros Pasos"
 
@@ -17,7 +16,7 @@ A través de nuestra librería Python y los servicios REST vas a tener acceso a 
 
 !!! example "Productos API"
 
-    En la sección de __"Productos API"__ se pueden consultar la totalidad de servicios disponibles de consumir, junto con descripciones y ejemplos de los mismos.
+    En la sección de __"Productos API"__ se pueden consultar la totalidad de servicios disponibles para consumir, junto con descripciones y ejemplos de los mismos.
  
 !!! question "FAQ"
 

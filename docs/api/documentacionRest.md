@@ -593,31 +593,6 @@ Parameters:
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## ORDERS
 ### Orders
 Retrieves all the filter and active orders for the given account.
@@ -631,8 +606,8 @@ Parameters:
 | Name        | Type                                 | Mandatory   | Description                          | Location |
 | ----------  | ------------------------------------ | ----------- | ------------------------------------ | -------- |
 | accountNumber      | string  |  required  | Account number | Query Params |
-| dateFrom       | string ($date-time)  | optional   | Date from (Default last month) | Query Params |
-| dateTo       | string ($date-time)  | optional | Date to (Default current date)  | Query Params |
+| dateFrom       | string ($date-time)  | optional   | 	Start date to filter the orders (Default last month) | Query Params |
+| dateTo       | string ($date-time)  | optional | Finish date to filter the orders (Default current date)  | Query Params |
 | v       | string  | required | API Version | Path |
 | AuthorizedClient       | string  | required | Authorized Client ID for the API | Headers |
 | ClientKey    | string  | required | Client Key for the API | Headers |

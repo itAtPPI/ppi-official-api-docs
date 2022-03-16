@@ -1,8 +1,9 @@
 site_name: PPI Docs
 theme:
   name: material
+  logo: 'assets/Logoppi.png'
   icon:
-    repo: fontawesome/brands/github-alt
+    repo: fontawesome/brands/github-alt  
   features:
     - content.code.annotate
     - content.tabs.link
@@ -30,13 +31,18 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  
+
+extra_css:
+  - stylesheets/extra.css
 
 site_author: Portfolio Personal Inversiones
+
 edit_uri: ""
 
 
 repo_url: https://github.com/itAtPPI
-repo_name: itAtPPI/ppi-api-library
+repo_name: itAtPPI
 
 extra:
   social:
@@ -54,18 +60,18 @@ extra:
       link: https://open.spotify.com/show/3aRKaHvbA32pNU2mi3zDEo?si=Ymlw3e-BTMyxc92aJF27kw 
       
 
-copyright: Portfolio Personal Inversiones | Copyright 2021
+copyright: Portfolio Personal Inversiones | Copyright 2022
 
 nav:
   - Inicio: index.md
   - Primeros pasos: 
-    - Creación de Credenciales: primerosPasos/credenciales.md
+    - Creación de credenciales: primerosPasos/credenciales.md
   - Productos API:
-    - Librería Python:
-      - Conexión - Librería Python: api/conexionesWebSocket.md
-      - Stream - Librería Python: api/streamWebSocket.md
+    - Libreria Python:
+      - Documentación - Libreria Python: api/documentacionPython.md
+      - Ejemplo - Python: api/ejemploPython.md
     - REST:
-      - API REST : api/rest.md
+      - API REST : api/documentacionRest.md
   - FAQ: faq.md
 
 markdown_extensions:

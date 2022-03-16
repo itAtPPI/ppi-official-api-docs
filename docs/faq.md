@@ -2,8 +2,7 @@
 
 ???+ question "¿Cómo empiezo a usar la librería de PPI?"
 
-    En esta página vas a encontrar toda la información necesaria para que verifiques los servicios y documentación disponibles de nuestra librería y servicios REST. Luego, para acceder a ambientes de prueba y  realizar consultas a la API, tendrás que contactarte con nosotros al email de [api@portfoliopersonal.com](mailto:api@portfoliopersonal.com) para que podamos brindarte los datos de acceso correspondientes.
-
+    En esta página vas a encontrar toda la información necesaria para que verifiques los servicios y documentación disponibles de nuestra librería y servicios REST. Luego, para acceder a ambientes de prueba y  realizar consultas a la API, tendrás que contactarte con nosotros al email [api@portfoliopersonal.com](mailto:api@portfoliopersonal.com) desde tu email registrado en PPI, informando tu nombre, apellido, DNI y número de cuenta en PPI para que podamos brindarte los datos de acceso correspondientes.
 
 ???+ question "¿Qué conocimientos necesito para usar APIs?"
 
