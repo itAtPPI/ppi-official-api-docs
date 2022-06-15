@@ -67,8 +67,8 @@ nav:
   - Primeros pasos: 
     - Creación de credenciales: primerosPasos/credenciales.md
   - Productos API:
-    - Libreria Python:
-      - Documentación - Libreria Python: api/documentacionPython.md
+    - Librería Python:
+      - Documentación - Librería Python: api/documentacionPython.md
       - Ejemplo - Python: api/ejemploPython.md
     - REST:
       - API REST : api/documentacionRest.md

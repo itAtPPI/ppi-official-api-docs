@@ -8,7 +8,7 @@ Creá tus propias herramientas y soluciones de trading mediante las APIs de PPI,
 - Acceder a información y cotizaciones de los instrumentos disponibles en PPI.
 - Acceder a cotizaciones por streaming en tiempo real, para que siempre tengas los últimos precios.
 - Consultar tu saldo operable y el estado de tu cuenta.
-- Presupuestar y enviar ordenes al mercado de Bonos, Acciones, CEDEARs y muchos instrumentos más.
+- Presupuestar y enviar órdenes al mercado de Bonos, Acciones, CEDEARs y muchos instrumentos más.
 
 !!! info "Primeros Pasos"
 
