@@ -9,6 +9,39 @@
 ### Login
 
 Tries to log in with the given credentials. Returns a session token which is needed to use the API.
+If you signed up after 16/6/22 and have the user key and user secret credentials, please use this endpoint.
+
+``` title="Method: POST"
+/api/{v}/Account/LoginApi
+```
+
+Parameters:
+
+| Name        | Type                                 | Mandatory   | Description                          | Location |
+| ----------  | ------------------------------------ | ----------- | ------------------------------------ | -------- |
+| v       | string  | required | API Version | Path |
+| AuthorizedClient       | string  | required | Authorized Client ID for the API | Headers |
+| ClientKey    | string  | required | Client Key for the API | Headers |
+| ApiKey    | string  | required | Api Key for the API | Headers |
+| ApiSecret    | string  | required | Api Secret for the API | Headers |
+
+
+``` JSON title="Response Body - 200 Success"
+[
+  {
+    "creationDate": "2022-01-18T18:25:36.269Z",
+    "expirationDate": "2022-01-18T18:25:36.269Z",
+    "accessToken": "string",
+    "expires": 0,
+    "refreshToken": "string",
+    "tokenType": "string"
+  }
+]
+```
+
+### Login (This method will be deprecated)
+
+Tries to log in with the given credentials. Returns a session token which is needed to use the API.
 
 ``` title="Method: POST"
 /api/{v}/Account/Login
