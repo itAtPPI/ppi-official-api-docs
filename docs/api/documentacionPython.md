@@ -30,8 +30,13 @@ ppi = PPI(sandbox=False)
 ```
 
 ``` Python title="Login"
+# If you signed up after 16/6/22 and have the user key and 
+# user secret credentials, please use this.
 # Change login credential to connect to the API
         ppi.account.login('<user key>', '<user secret>')
+# This method will be deprecated
+# Change login credential to connect to the API
+        ppi.account.login_api('<key publica>', '<key privada>')
 ```
 
 ``` Python title="Account Information"
