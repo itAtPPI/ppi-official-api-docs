@@ -28,13 +28,12 @@ ppi = PPI(sandbox=False)
 ​
 def main():
     try:
-        # If you signed up after 16/6/22 and have the user key and 
-        # user secret credentials, please use this.
-        # Change login credential to connect to the API
-        # ppi.account.login('<user key>', '<user secret>')
-        # This method will be deprecated
+        # If you signed up after 16/6/22 and have "Key Publica" and "Key Privada"  credentials, please use this.
         # Change login credential to connect to the API
         ppi.account.login_api('<key publica>', '<key privada>')
+        # This method will be deprecated
+        # Change login credential to connect to the API
+        # ppi.account.login('<user key>', '<user secret>')
 ​
         # Getting accounts information
         print("Getting accounts information")

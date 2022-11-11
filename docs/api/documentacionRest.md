@@ -9,7 +9,7 @@
 ### Login
 
 Tries to log in with the given credentials. Returns a session token which is needed to use the API.
-If you signed up after 16/6/22 and have the user key and user secret credentials, please use this endpoint.
+If you signed up after 16/6/22 and have "Key Publica" and "Key Privada" credentials, please use this endpoint.
 
 ``` title="Method: POST"
 /api/{v}/Account/LoginApi
@@ -38,43 +38,6 @@ Parameters:
   }
 ]
 ```
-
-### Login (This method will be deprecated)
-
-Tries to log in with the given credentials. Returns a session token which is needed to use the API.
-
-``` title="Method: POST"
-/api/{v}/Account/Login
-```
-
-Parameters:
-
-| Name        | Type                                 | Mandatory   | Description                          | Location |
-| ----------  | ------------------------------------ | ----------- | ------------------------------------ | -------- |
-| v       | string  | required | API Version | Path |
-| AuthorizedClient       | string  | required | Authorized Client ID for the API | Headers |
-| ClientKey    | string  | required | Client Key for the API | Headers |
-
-``` JSON title="Request Body"
-{
-  "user": "string",
-  "password": "string"
-}
-```
-
-``` JSON title="Response Body - 200 Success"
-[
-  {
-    "creationDate": "2022-01-18T18:25:36.269Z",
-    "expirationDate": "2022-01-18T18:25:36.269Z",
-    "accessToken": "string",
-    "expires": 0,
-    "refreshToken": "string",
-    "tokenType": "string"
-  }
-]
-```
-
 
 ### Refresh Token
 Tries to refresh the current session. Returns a new session token which is needed to continue using the API.
@@ -847,6 +810,85 @@ Parameters:
         "price": 0,
         "volume": 0
     }, ...
+]
+```
+
+### Bonds calculator 
+Calculate the return on your investments.
+
+``` title="Method: GET"
+/api/{v}/MarketData/Bonds/Estimate
+```
+
+Parameters:
+
+| Name        | Type                                 | Mandatory   | Description                          | Location |
+| ----------  | ------------------------------------ | ----------- | ------------------------------------ | -------- |
+| Ticker      | string  | required | Ticker of the instrument | Query Params |
+| Date       | string ($date-time)  | required | Date from | Query Params |
+| QuantityType       | string  | required | Quantity Type | Query Params |
+| Quantity       | number ($double)  | required | Quantity | Query Params |
+| AmountOfMoney       | number ($double)  | required | Amount of money | Query Params |
+| Price       | number ($double)  | required | Price | Query Params |
+| ExchangeRate       | number ($double)  | required | Exchange rate | Query Params |
+| EquityRate       | number ($double)  | required | Equity rate | Query Params |
+| ExchangeRateAmortization       | number ($double)  | required | Exchange Rate Amortization  | Query Params |
+| RateAdjustmentAmortization       | number ($double)  | required | Rate Adjustment Amortization | Query Params |
+| v       | string  | required | API Version | Path |
+| AuthorizedClient       | string  | required | Authorized Client ID for the API | Headers |
+| ClientKey    | string  | required | Client Key for the API | Headers |
+
+``` JSON title="Response Body - 200 Success"
+[
+  {
+    "flows": [
+      {
+        "cuttingDate": "2022-11-09T14:29:09.823Z",
+        "residualValue": 0,
+        "rent": 0,
+        "amortization": 0,
+        "total": 0,
+        "quantity": 0,
+        "ticker": "string",
+        "currency": "string",
+        "name": "string"
+      }
+    ],
+    "sensitivity": [
+      {
+        "tir": 0,
+        "price": 0,
+        "parity": 0,
+        "variation": 0
+      }
+    ],
+    "tir": 0,
+    "md": 0,
+    "interestAccrued": 0,
+    "parity": 0,
+    "technicalValue": 0,
+    "residualValue": 0,
+    "totalRevenue": 0,
+    "totalAmortization": 0,
+    "total": 0,
+    "currency": "string",
+    "amountToInvest": 0,
+    "amountToReceive": 0,
+    "quantityTitles": 0,
+    "currentCoupon": 0,
+    "title": "string",
+    "abbreviationCurrencyPay": "string",
+    "abbreviationCurrencyIssuance": "string",
+    "issuer": "string",
+    "issueCurrency": "string",
+    "amortization": "string",
+    "interests": "string",
+    "issueDate": "string",
+    "expirationDate": "string",
+    "law": "string",
+    "minimalSheet": "string",
+    "isin": "string"
+  }
 ]
 ```
 

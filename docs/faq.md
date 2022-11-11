@@ -2,7 +2,7 @@
 
 ???+ question "¿Cómo empiezo a usar la librería de PPI?"
 
-    En esta página vas a encontrar toda la información necesaria para que verifiques los servicios y documentación disponibles de nuestra librería y servicios REST. Luego, para acceder a ambientes de prueba y  realizar consultas a la API, tendrás que contactarte con nosotros al email [api@portfoliopersonal.com](mailto:api@portfoliopersonal.com) desde tu email registrado en PPI, informando tu nombre, apellido, DNI y número de cuenta en PPI para que podamos brindarte los datos de acceso correspondientes.
+    En esta página vas a encontrar toda la información necesaria para que verifiques los servicios y documentación disponibles de nuestra librería y servicios REST. Luego, para acceder a ambientes de prueba y  realizar consultas a la API, tendrás que activar el servicio API desde este [link](https://trading.portfoliopersonal.com/usuarioApi).
 
 ???+ question "¿Qué conocimientos necesito para usar APIs?"
 
@@ -21,11 +21,11 @@
 
 ???+ question "¿Tengo que cumplir con algún requisito para usar la API? "
 
-    No. Únicamente tenés que tener una __Cuenta Comitente__ en PPI.
+    Para acceder al servicio API tenés que tener cuenta en PPI y haber fondeado una vez con al menos AR$5.000 esa cuenta.
 
 ???+ question "¿Dónde puedo resolver mis dudas y consultas sobre la API?"
 
-    Toda la documentación sobre nuestros servicios se encuentra disponible en __MK Docs__ detallando la última versión generada de la API para consultarla cuando lo necesites. A la vez, en nuestra comunidad de [__GitHub__](https://github.com/itAtPPI) podrás realizar las consultas que necesites, como también crear proyectos y compartirlos a la comunidad.
+    Toda la documentación sobre nuestros servicios se encuentra disponible en esta página detallando la última versión generada de la API para consultarla cuando lo necesites. A la vez, en nuestra comunidad de [__GitHub__](https://github.com/itAtPPI) podrás realizar las consultas que necesites, como también crear proyectos y compartirlos a la comunidad.
 
 
 
