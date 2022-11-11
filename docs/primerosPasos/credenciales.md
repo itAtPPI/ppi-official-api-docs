@@ -1,6 +1,6 @@
 # Creación de Credenciales
 
-Para comenzar a utilizar nuestra librería Pyhton y servicios REST, ingresá a tu cuenta en PPI y __activá el servicio API__ desde la pestaña de "Gestiones".
+Para comenzar a utilizar nuestra librería Python y servicios REST, ingresá a tu cuenta en PPI y __activá el servicio API__ desde la pestaña de "Gestiones".
  
 *En caso de que aún no seas usuario de PPI, podés iniciar la apertura de tu cuenta desde el siguiente [link](https://portfoliopersonal.com/es/abrircuenta).*
 
