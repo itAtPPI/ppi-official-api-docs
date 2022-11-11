@@ -17,6 +17,7 @@ from ppi_client.models.investing_profile import InvestingProfile
 from ppi_client.models.investing_profile_answer import InvestingProfileAnswer
 from ppi_client.models.instrument import Instrument
 from datetime import datetime, timedelta
+from ppi_client.models.estimate_bonds import EstimateBonds
 import asyncio
 import json
 import traceback
@@ -30,11 +31,7 @@ ppi = PPI(sandbox=False)
 ```
 
 ``` Python title="Login"
-# If you signed up after 16/6/22 and have the user key and 
-# user secret credentials, please use this.
-# Change login credential to connect to the API
-        ppi.account.login('<user key>', '<user secret>')
-# This method will be deprecated
+
 # Change login credential to connect to the API
         ppi.account.login_api('<key publica>', '<key privada>')
 ```
@@ -820,6 +817,67 @@ string
 string
 ```
 
+``` Python title="Bonds Calculator"
+# Estimate bond
+        print("\nEstimate bond")
+        estimate = ppi.marketdata.estimate_bonds(EstimateBonds(ticker="CUAP", date=datetime.today(), 
+        quantityType="PAPELES", quantity=100, price=4555))
+        print(estimate)
+        
+```
+``` JSON title="Response Bonds Calculator" 
+[
+  {
+    "flows": [
+      {
+        "cuttingDate": "2022-11-10T16:05:51.900Z",
+        "residualValue": 0,
+        "rent": 0,
+        "amortization": 0,
+        "total": 0,
+        "quantity": 0,
+        "ticker": "string",
+        "currency": "string",
+        "name": "string"
+      }
+    ],
+    "sensitivity": [
+      {
+        "tir": 0,
+        "price": 0,
+        "parity": 0,
+        "variation": 0
+      }
+    ],
+    "tir": 0,
+    "md": 0,
+    "interestAccrued": 0,
+    "parity": 0,
+    "technicalValue": 0,
+    "residualValue": 0,
+    "totalRevenue": 0,
+    "totalAmortization": 0,
+    "total": 0,
+    "currency": "string",
+    "amountToInvest": 0,
+    "amountToReceive": 0,
+    "quantityTitles": 0,
+    "currentCoupon": 0,
+    "title": "string",
+    "abbreviationCurrencyPay": "string",
+    "abbreviationCurrencyIssuance": "string",
+    "issuer": "string",
+    "issueCurrency": "string",
+    "amortization": "string",
+    "interests": "string",
+    "issueDate": "string",
+    "expirationDate": "string",
+    "law": "string",
+    "minimalSheet": "string",
+    "isin": "string"
+  }
+]
+```
 
 ``` Python title="Realtime Subscription to Market Data / Realtime Broadcast Market Data"
 ''' Uncomment to use realtime market data

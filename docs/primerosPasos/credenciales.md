@@ -1,10 +1,10 @@
 # Creación de Credenciales
 
-Para comenzar a utilizar nuestra librería Pyhton y servicios REST, escribinos desde tu email registrado en PPI a la casilla de: [api@portfoliopersonal.com](mailto:api@portfoliopersonal.com), informando tu nombre, apellido, DNI y número de cuenta en PPI.
+Para comenzar a utilizar nuestra librería Pyhton y servicios REST, ingresá a tu cuenta en PPI y __activá el servicio API__ desde la pestaña de "Gestiones".
  
-Como único requisito para acceder a los servicios API, debés tener una Cuenta Comitente en PPI. *En caso de que aún no seas usuario, podés iniciar la apertura de tu cuenta desde el siguiente [link](https://portfoliopersonal.com/es/abrircuenta).*
+*En caso de que aún no seas usuario de PPI, podés iniciar la apertura de tu cuenta desde el siguiente [link](https://portfoliopersonal.com/es/abrircuenta).*
 
-Una vez que recibamos tu pedido, nos pondremos en contacto para brindarte las credenciales correspondientes y puedas utilizar las herramientas mencionadas.
+Vas a poder generar tus credenciales API en el momento y comenzar a utilizar este servicio.
  
  -------------------------------------------------------------------------------
 __Ya tengo mis credenciales para utilizar las herramientas__

@@ -3,20 +3,20 @@
 __Bienvenido a los servicios API de Portfolio Personal Inversiones__
  -----------------------------------------------------------
  
-Creá tus propias herramientas y soluciones de trading mediante las APIs de PPI, las cuales te permiten:
+Creá tus propias herramientas y soluciones de trading con nuestra API mediante una librería, la cual te permite:
 
-- Acceder a información y cotizaciones de los instrumentos disponibles en PPI.
-- Acceder a cotizaciones por streaming en tiempo real, para que siempre tengas los últimos precios.
-- Consultar tu saldo operable y el estado de tu cuenta.
-- Presupuestar y enviar órdenes al mercado de Bonos, Acciones, CEDEARs y muchos instrumentos más.
+- Consultar información general de tu cuenta, como el valor actual de tu cartera, últimos movimientos y saldos disponibles en distintos plazos.
+- Buscar instrumentos y conocer sus valores históricos.
+- Acceder a cotizaciones en tiempo real, para que siempre tengas los últimos precios.
+- Enviar y cancelar órdenes de compra y venta.
 
 !!! info "Primeros Pasos"
 
-    En esta sección encontrarás toda la información necesaria para comenzar a utilizar e interactuar con nuestra librería y servicios REST.
+    En esta sección encontrarás toda la información necesaria para comenzar a utilizar e interactuar con nuestra librería Python y servicios REST.
 
 !!! example "Productos API"
 
-    En la sección de __"Productos API"__ se pueden consultar la totalidad de servicios disponibles para consumir, junto con descripciones y ejemplos de los mismos.
+    En la sección de __"Productos API"__ se pueden consultar la totalidad de servicios disponibles para consumir, junto con descripciones y ejemplos de estos.
  
 !!! question "FAQ"
 
