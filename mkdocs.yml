@@ -71,7 +71,7 @@ nav:
       - Documentación - Librería Python: api/documentacionPython.md
       - Ejemplo - Python: api/ejemploPython.md
     - REST:
-      - API REST : api/documentacionRest.md
+      - API REST (PROXIMAMENTE) : api/documentacionRest.md
   - FAQ: faq.md
 
 markdown_extensions:
