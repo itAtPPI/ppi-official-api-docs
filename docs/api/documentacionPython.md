@@ -527,7 +527,7 @@ true/false
         accepted_disclaimers = []
         for disclaimer in disclaimers_order:
             accepted_disclaimers.append(Disclaimer(disclaimer['code'], True))
-        confirmation = ppi.orders.confirm(OrderConfirm(account_number, 10000, 150, None, "GGAL", "ACCIONES", "Dinero",
+        confirmation = ppi.orders.confirm(OrderConfirm(account_number, 10000, 150, "GGAL", "ACCIONES", "Dinero",
                                                        "PRECIO-LIMITE", "HASTA-SU-EJECUCIÓN", None, "Compra"
                                                        , "INMEDIATA", accepted_disclaimers, None))
         print(confirmation)
