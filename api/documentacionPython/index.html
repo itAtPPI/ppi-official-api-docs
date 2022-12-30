@@ -1033,7 +1033,7 @@
 <a id="__codelineno-47-4" name="__codelineno-47-4" href="#__codelineno-47-4"></a><span class="sd">        accepted_disclaimers = []</span>
 <a id="__codelineno-47-5" name="__codelineno-47-5" href="#__codelineno-47-5"></a><span class="sd">        for disclaimer in disclaimers_order:</span>
 <a id="__codelineno-47-6" name="__codelineno-47-6" href="#__codelineno-47-6"></a><span class="sd">            accepted_disclaimers.append(Disclaimer(disclaimer[&#39;code&#39;], True))</span>
-<a id="__codelineno-47-7" name="__codelineno-47-7" href="#__codelineno-47-7"></a><span class="sd">        confirmation = ppi.orders.confirm(OrderConfirm(account_number, 10000, 150, None, &quot;GGAL&quot;, &quot;ACCIONES&quot;, &quot;Dinero&quot;,</span>
+<a id="__codelineno-47-7" name="__codelineno-47-7" href="#__codelineno-47-7"></a><span class="sd">        confirmation = ppi.orders.confirm(OrderConfirm(account_number, 10000, 150, &quot;GGAL&quot;, &quot;ACCIONES&quot;, &quot;Dinero&quot;,</span>
 <a id="__codelineno-47-8" name="__codelineno-47-8" href="#__codelineno-47-8"></a><span class="sd">                                                       &quot;PRECIO-LIMITE&quot;, &quot;HASTA-SU-EJECUCIÓN&quot;, None, &quot;Compra&quot;</span>
 <a id="__codelineno-47-9" name="__codelineno-47-9" href="#__codelineno-47-9"></a><span class="sd">                                                       , &quot;INMEDIATA&quot;, accepted_disclaimers, None))</span>
 <a id="__codelineno-47-10" name="__codelineno-47-10" href="#__codelineno-47-10"></a><span class="sd">        print(confirmation)</span>
