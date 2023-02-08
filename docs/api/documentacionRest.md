@@ -14,6 +14,15 @@ __Postman Collection__
 
     Accede a la collección de postman a traves de este [__link__](https://elements.getpostman.com/redirect?entityId=15036183-639ce544-e507-4f0f-9f36-87131e32b52b&entityType=collection). Para poder usar nuestra colección de Postman deberás crear una bifurcación o "Fork".
 
+- Realizá un fork.
+- Completá estos datos para comenzar a loguearte:
+    - ApiKey 
+    - ApiSecret
+    - AuthorizedClient 
+    - ClientKey
+- El AuthorizedClient y ClientKey de Sandbox(testing) los recibis en un email. Los productivos se encuentran dentro de tu cuenta en Gestiones -> Gestión de servicio API.    
+- Recordá que cada un tiempo el token se vence y debes volver a pedir un token con endpoint de Refresh token.
+
 ## ACCOUNT
 ### Login
 
