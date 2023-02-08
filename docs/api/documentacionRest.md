@@ -2,14 +2,22 @@
 
 !!! note ""
 
-    __Current API version: 1.0__
+    __Version actual de API: 1.0__
 
+__Swagger Sandbox__
+!!! note ""
+
+    Accede a la documetación de swagger sandbox a traves de este [__link__](https://clientapi_sandbox.portfoliopersonal.com/swagger/index.html).
+
+__Postman Collection__
+!!! note ""
+
+    Accede a la collección de postman a traves de este [__link__](https://elements.getpostman.com/redirect?entityId=15036183-639ce544-e507-4f0f-9f36-87131e32b52b&entityType=collection). Para poder usar nuestra colección de Postman deberás crear una bifurcación o "Fork".
 
 ## ACCOUNT
 ### Login
 
 Tries to log in with the given credentials. Returns a session token which is needed to use the API.
-If you signed up after 16/6/22 and have "Key Publica" and "Key Privada" credentials, please use this endpoint.
 
 ``` title="Method: POST"
 /api/{v}/Account/LoginApi
