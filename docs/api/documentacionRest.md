@@ -7,7 +7,7 @@
 __Swagger Sandbox__
 !!! note ""
 
-    Accede a la documetación de swagger sandbox a traves de este [__link__](https://clientapi_sandbox.portfoliopersonal.com/swagger/index.html).
+    Accede a la documetación de swagger sandbox a traves de este [__link__](https://clientapisbx.portfoliopersonal.com/swagger/index.html).
 
 __Postman Collection__
 !!! note ""
